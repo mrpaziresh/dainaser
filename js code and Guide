@@ -6,6 +6,7 @@ Click on inspect
 Enter the following code in the console field .
 ----------------------------------------------
 Runner.prototype.gameOver=function(){}
++ #this is code you should add in your browsers 
 ----------------------------------------------
 You close the inspect
 And run the game 
