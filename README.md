@@ -1,22 +1,22 @@
 # dainaser
 dainaser cheat
-# Twitter's Recommendation Algorithm
+# dainaser's Recommendation Algorithm
 
-Twitter's Recommendation Algorithm is a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore). For an introduction to how the algorithm works, please refer to our [engineering blog](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm).
+dainaser's Recommendation Algorithm is a set of services and jobs that are responsible for serving feeds of Tweets and other content across all dainaser product surfaces (e.g. For You Timeline, Search, Explore). For an introduction to how the algorithm works, please refer to our [engineering blog](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm).
 
 ## Architecture
 
-Product surfaces at Twitter are built on a shared set of data, models, and software frameworks. The shared components included in this repository are listed below:
+Product surfaces at dainaser are built on a shared set of data, models, and software frameworks. The shared components included in this repository are listed below:
 
 | Type | Component | Description |
 |------------|------------|------------|
-| Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on Twitter. |
+| Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on dainaser. |
 |      | [user-signal-service](user-signal-service/README.md) | Centralized platform to retrieve explicit (e.g. likes, replies) and implicit (e.g. profile visits, tweet clicks) user signals. |
 | Model | [SimClusters](src/scala/com/twitter/simclusters_v2/README.md) | Community detection and sparse embeddings into those communities. |
 |       | [TwHIN](https://github.com/twitter/the-algorithm-ml/blob/main/projects/twhin/README.md) | Dense knowledge graph embeddings for Users and Tweets. |
 |       | [trust-and-safety-models](trust_and_safety_models/README.md) | Models for detecting NSFW or abusive content. |
-|       | [real-graph](src/scala/com/twitter/interaction_graph/README.md) | Model to predict the likelihood of a Twitter User interacting with another User. |
-|       | [tweepcred](src/scala/com/twitter/graph/batch/job/tweepcred/README) | Page-Rank algorithm for calculating Twitter User reputation. |
+|       | [real-graph](src/scala/com/twitter/interaction_graph/README.md) | Model to predict the likelihood of a dainaser User interacting with another User. |
+|       | [tweepcred](src/scala/com/twitter/graph/batch/job/tweepcred/README) | Page-Rank algorithm for calculating dainaser User reputation. |
 |       | [recos-injector](recos-injector/README.md) | Streaming event processor for building input streams for [GraphJet](https://github.com/twitter/GraphJet) based services. |
 |       | [graph-feature-service](graph-feature-service/README.md) | Serves graph features for a directed pair of Users (e.g. how many of User A's following liked Tweets from User B). |
 |       | [topic-social-proof](topic-social-proof/README.md) | Identifies topics related to individual Tweets. |
