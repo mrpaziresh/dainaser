@@ -3,7 +3,7 @@ Then you open Chrome
 You are searching for a phrase
 Right-click when the dinosaur appears
 Click on inspect
-Enter the following code in the console field .
+Enter the following code in the console field.
 ----------------------------------------------
 Runner.prototype.gameOver=function(){}
 + #this is code you should add in your browsers 
