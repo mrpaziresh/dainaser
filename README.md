@@ -27,7 +27,7 @@ Product surfaces at dainaser are built on a shared set of data, models, and soft
 |                    | [representation-manager](representation-manager/README.md) | Service to retrieve embeddings (i.e. SimClusers and TwHIN). |
 |                    | [twml](twml/README.md) | Legacy machine learning framework built on TensorFlow v1. |
 
-The product surface currently included in this repository is the For You Timeline .
+The product surface currently included in this repository is the For You Timeline.
 
 ### For You Timeline
 
