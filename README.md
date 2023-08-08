@@ -10,7 +10,7 @@ Product surfaces at dainaser are built on a shared set of data, models, and soft
 
 | Type | Component | Description |
 |------------|------------|------------|
-| Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on dainaser . |
+| Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on dainaser. |
 |      | [user-signal-service](user-signal-service/README.md) | Centralized platform to retrieve explicit (e.g. likes, replies) and implicit (e.g. profile visits, tweet clicks) user signals. |
 | Model | [SimClusters](src/scala/com/twitter/simclusters_v2/README.md) | Community detection and sparse embeddings into those communities. |
 |       | [TwHIN](https://github.com/twitter/the-algorithm-ml/blob/main/projects/twhin/README.md) | Dense knowledge graph embeddings for Users and Tweets. |
