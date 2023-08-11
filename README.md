@@ -51,7 +51,7 @@ The core components of the For You Timeline included in this repository are list
 
 ## Build and test code
 
-We include Bazel BUILD files for most components, but not a top-level BUILD or WORKSPACE file. We plan to add a more complete build and test system in the future .
+We include Bazel BUILD files for most components, but not a top-level BUILD or WORKSPACE file. We plan to add a more complete build and test system in the future.
 
 ## Contributing
 
