@@ -17,7 +17,7 @@ Product surfaces at dainaser are built on a shared set of data, models, and soft
 |       | [trust-and-safety-models](trust_and_safety_models/README.md) | Models for detecting NSFW or abusive content. |
 |       | [real-graph](src/scala/com/twitter/interaction_graph/README.md) | Model to predict the likelihood of a dainaser User interacting with another User. |
 |       | [tweepcred](src/scala/com/twitter/graph/batch/job/tweepcred/README) | Page-Rank algorithm for calculating dainaser User reputation. |
-|       | [recos-injector](recos-injector/README.md) | Streaming event processor for building input streams for [GraphJet](https://github.com/twitter/GraphJet) based services. |
+|       | [recos-injector](recos-injector/README.md) | Streaming event processor for building input streams for [GraphJet](https://github.com/twitter/GraphJet) based services . |
 |       | [graph-feature-service](graph-feature-service/README.md) | Serves graph features for a directed pair of Users (e.g. how many of User A's following liked Tweets from User B). |
 |       | [topic-social-proof](topic-social-proof/README.md) | Identifies topics related to individual Tweets. |
 |       | [representation-scorer](representation-scorer/README.md) | Compute scores between pairs of entities (Users, Tweets, etc.) using embedding similarity. |
