@@ -13,7 +13,7 @@ Product surfaces at dainaser are built on a shared set of data, models, and soft
 | Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on dainaser. |
 |      | [user-signal-service](user-signal-service/README.md) | Centralized platform to retrieve explicit (e.g. likes, replies) and implicit (e.g. profile visits, tweet clicks) user signals. |
 | Model | [SimClusters](src/scala/com/twitter/simclusters_v2/README.md) | Community detection and sparse embeddings into those communities. |
-|       | [TwHIN](https://github.com/twitter/the-algorithm-ml/blob/main/projects/twhin/README.md) | Dense knowledge graph embeddings for Users and Tweets. |
+|       | [TwHIN](https://github.com/twitter/the-algorithm-ml/blob/main/projects/twhin/README.md) | Dense knowledge graph embeddings for Users and Tweets . |
 |       | [trust-and-safety-models](trust_and_safety_models/README.md) | Models for detecting NSFW or abusive content. |
 |       | [real-graph](src/scala/com/twitter/interaction_graph/README.md) | Model to predict the likelihood of a dainaser User interacting with another User. |
 |       | [tweepcred](src/scala/com/twitter/graph/batch/job/tweepcred/README) | Page-Rank algorithm for calculating dainaser User reputation. |
